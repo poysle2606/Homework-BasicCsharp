@@ -1,0 +1,20 @@
+# Thư mục build output
+[Bb]in/
+[Oo]bj/
+
+# Thư mục cache/thiết lập riêng của Visual Studio (nguyên nhân lỗi "Permission denied" khi VS đang mở)
+.vs/
+
+# Thiết lập riêng của người dùng, không nên đưa lên git
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# File rác khác
+*.log
+*.tmp
