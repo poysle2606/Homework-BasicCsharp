@@ -45,7 +45,7 @@ namespace BasicCsharp.Lesson4
         #region 2.2.2
         //public static void Main(string[] args)
         //{
-        //    // Xử dung vòng do while để thực hiện các thao tác với tài khoản
+        //     Xử dung vòng do while để thực hiện các thao tác với tài khoản
         //    do
         //    {
         //        Console.WriteLine("Bam 1 de nap tien. 2 de rut tien. 3 de xem so du.");
@@ -80,29 +80,39 @@ namespace BasicCsharp.Lesson4
             private static double soDu { get; set; }
 
             // Số tiền nạp vào tài khoản phải lớn hơn 0, nếu không thì in ra thông báo lỗi
-            public static void NapTien(double soTien)
+            public static bool NapTien(double soTien)
             {
+                if (soTien <= 0)
+                {
+                    Console.WriteLine("So tien nap phai lon hon 0");
+                    return false;
+                }
+                    
                 if (soTien > 0)
                 {
                     TaiKhoan.soDu += soTien;
+                    return true;
                 }
-                else
-                {
-                    Console.WriteLine("So tien nap phai lon hon 0");
-                }
+                return false;
             }
 
             // Số tiền rút ra phải lớn hơn 0 và nhỏ hơn hoặc bằng số dư tài khoản, nếu không thì in ra thông báo lỗi
-            public static void RutTien(double soTien)
+            public static bool RutTien(double soTien)
             {
-                if (soTien > 0 && soTien <= TaiKhoan.soDu)
+                if (soTien <= 0)
                 {
-                    TaiKhoan.soDu -= soTien;
+                    Console.WriteLine("So tien rut phai lon hon 0");
+                    return false;
                 }
-                else
+
+                if (soTien > TaiKhoan.soDu)
                 {
-                    Console.WriteLine("So tien rút ra phai lon hon 0");
+                    Console.WriteLine("So tien rut phai nho hon hoac bang so du");
+                    return false;
                 }
+
+                TaiKhoan.soDu -= soTien;
+                return true;
             }
 
             public static void XemSoDu()
@@ -142,10 +152,12 @@ namespace BasicCsharp.Lesson4
         // Số nguyên tố là số tự nhiên lớn hơn 1 và chỉ chia hết cho 1 và chính nó.
         public static bool LaSoNguyenTo(int n)
         {
+            // i < n * n là số nguyên tố ??? Thuật toán kiểm tra 1 số có phải là số nguyên tố
+
+
             // Nếu n nhỏ hơn 2 thì không phải số nguyên tố
             if (n < 2)
             {
-                //Console.WriteLine($"{n} khong phai so nguyen to");
                 return false;
             }
 
@@ -155,11 +167,9 @@ namespace BasicCsharp.Lesson4
                 // Nếu n chia hết cho i thì n không phải số nguyên tố
                 if (n % i == 0)
                 {
-                    //Console.WriteLine($"{n} Khong phai so nguyen to");
                     return false;
                 }
             }
-            //Console.WriteLine($"{n} La so nguyen to");
             return true;
         }
         #endregion
