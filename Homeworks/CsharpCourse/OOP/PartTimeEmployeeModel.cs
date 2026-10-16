@@ -22,13 +22,5 @@ namespace BasicCsharp.OOP
 
             return (decimal)(timesheet.work_shift + timesheet.over_time) * salary_standard;
         }
-
-        /// <summary>
-        /// Tổng thu nhập
-        /// </summary>
-        public override decimal TotalIncome()
-        {
-            return salary_standard;
-        }
     }
 }

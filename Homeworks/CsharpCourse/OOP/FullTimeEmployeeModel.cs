@@ -44,15 +44,7 @@ namespace BasicCsharp.OOP
         /// <param name="timesheet"></param>
         public decimal RewardSalary (TimesheetModel timesheet)
         {
-            return salary_standard * (decimal)reward_percent;
-        }
-
-        /// <summary>
-        /// Tổng thu nhập = Lương theo công + Thưởng
-        /// </summary>
-        public override decimal TotalIncome()
-        {
-            return CalculateSalary(new TimesheetModel()) + RewardSalary(new TimesheetModel());
+            return salary_standard * (decimal)reward_percent/100;
         }
     }
 }

@@ -20,8 +20,6 @@ namespace BasicCsharp.OOP
         /// </summary>
         public EmployeeType type_position { get; set; } = EmployeeType.FullTime;
 
-        public abstract decimal TotalIncome();
-
     }
 
     public enum EmployeeType

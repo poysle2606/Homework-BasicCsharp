@@ -25,10 +25,10 @@ namespace BasicCsharp.Lesson5
             
         }
 
-        public static void Main(string[] args)
-        {
-            HasPoint();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    HasPoint();
+        //}
 
         public struct Point
         {
@@ -48,26 +48,26 @@ namespace BasicCsharp.Lesson5
         #endregion
 
         #region 2.6.4
-        public static void Mains(string[] args)
-        {
-            Console.WriteLine("Nhap chuoi lon:");
-            var inputString = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(inputString))
-            {
-                Console.WriteLine("Chuoi lon khong hop le.");
-                return;
-            }
+        //public static void Mains(string[] args)
+        //{
+        //    Console.WriteLine("Nhap chuoi lon:");
+        //    var inputString = Console.ReadLine();
+        //    if (string.IsNullOrWhiteSpace(inputString))
+        //    {
+        //        Console.WriteLine("Chuoi lon khong hop le.");
+        //        return;
+        //    }
 
-            Console.WriteLine("Nhap chuoi con:");
-            var substring = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(substring))
-            {
-                Console.WriteLine("Chuoi con khong hop le.");
-                return;
-            }
+        //    Console.WriteLine("Nhap chuoi con:");
+        //    var substring = Console.ReadLine();
+        //    if (string.IsNullOrWhiteSpace(substring))
+        //    {
+        //        Console.WriteLine("Chuoi con khong hop le.");
+        //        return;
+        //    }
 
-            DemXuatHien(inputString, substring);
-        }
+        //    DemXuatHien(inputString, substring);
+        //}
 
         // Đếm số lần không trùng lặp của chuỗi con trong chuỗi lớn
         public static void DemXuatHien(string chuoiLon, string chuoiCon)
