@@ -1,0 +1,62 @@
+[
+  {
+    "unit_ot": 65000.0,
+    "reward_percent": 10.0,
+    "id": "1",
+    "full_name": "Nguyễn Văn Anmmmm",
+    "code": "NV01",
+    "salary_standard": 13000000.0,
+    "type_position": 1,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "unit_ot": 75000.0,
+    "reward_percent": 5.0,
+    "id": "3",
+    "full_name": "Lê Văn Chi",
+    "code": "NV03",
+    "salary_standard": 15600000.0,
+    "type_position": 1,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "unit_ot": 50000.0,
+    "reward_percent": 0.0,
+    "id": "5",
+    "full_name": "Hoàng Minh Em",
+    "code": "NV05",
+    "salary_standard": 10400000.0,
+    "type_position": 1,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "unit_ot": 90000.0,
+    "reward_percent": 7.5,
+    "id": "7",
+    "full_name": "Lê Thu Giang",
+    "code": "NV07",
+    "salary_standard": 18200000.0,
+    "type_position": 1,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "unit_ot": 60000.0,
+    "reward_percent": 2.5,
+    "id": "9",
+    "full_name": "Ngô Minh Khang",
+    "code": "NV09",
+    "salary_standard": 11700000.0,
+    "type_position": 1,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2",
+    "full_name": "Trần Thị Bình",
+    "code": "NV02",
+    "salary_standard": 50000.0,
+    "type_position": 2,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "id": "4",
+    "full_name": "Phạm Quốc Dũng",
+    "code": "NV04",
+    "salary_standard": 55000.0,
+    "type_position": 2,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "id": "6",
+    "full_name": "Võ Thị Phương",
+    "code": "NV06",
+    "salary_standard": 48000.0,
+    "type_position": 2,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "id": "8",
+    "full_name": "Đỗ Thị Hạnh",
+    "code": "NV08",
+    "salary_standard": 60000.0,
+    "type_position": 2,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "id": "10",
+    "full_name": "Bùi Ngọc Linh",
+    "code": "NV10",
+    "salary_standard": 45000.0,
+    "type_position": 2,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  }
+]

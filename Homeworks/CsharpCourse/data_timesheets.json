@@ -1,0 +1,102 @@
+[
+  {
+    "employee_id": "1",
+    "work_standard": 26.0,
+    "over_time": 8.0,
+    "work_shift": 24.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "2",
+    "work_standard": 26.0,
+    "over_time": 5.0,
+    "work_shift": 10.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "3",
+    "work_standard": 26.0,
+    "over_time": 2.0,
+    "work_shift": 25.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "4",
+    "work_standard": 26.0,
+    "over_time": 4.0,
+    "work_shift": 12.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "5",
+    "work_standard": 26.0,
+    "over_time": 0.0,
+    "work_shift": 22.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "6",
+    "work_standard": 26.0,
+    "over_time": 2.0,
+    "work_shift": 14.5,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "7",
+    "work_standard": 26.0,
+    "over_time": 3.5,
+    "work_shift": 26.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "8",
+    "work_standard": 26.0,
+    "over_time": 3.0,
+    "work_shift": 8.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "9",
+    "work_standard": 26.0,
+    "over_time": 6.0,
+    "work_shift": 23.5,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  },
+  {
+    "employee_id": "10",
+    "work_standard": 26.0,
+    "over_time": 3.0,
+    "work_shift": 16.0,
+    "id": null,
+    "created_at": 0,
+    "updated_at": 0,
+    "is_deleted": false
+  }
+]
